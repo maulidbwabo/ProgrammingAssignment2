@@ -1,7 +1,7 @@
-
 ## Maulid Hussein Bwabo
 ## Data Science Specialization
-#Programming Assignment 2: Lexical Scoping
+## Second Module 
+#  Programming Assignment 2: Lexical Scoping
 #`makeCacheMatrix`: This function creates a special "matrix" object that can cache its inverse
 #set the working directory 
 setwd("C:/Users/bwabo/OneDrive/Desktop/Paper 4/ProgrammingAssignment2")
