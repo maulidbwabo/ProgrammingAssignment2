@@ -4,6 +4,8 @@
 
 #Programming Assignment 2: Lexical Scoping
 #`makeCacheMatrix`: This function creates a special "matrix" object that can cache its inverse
+#set the working directory 
+setwd("C:/Users/bwabo/OneDrive/Desktop/Paper 4/ProgrammingAssignment2")
 #Browsing the functions 
 ?cacheMethod
 #Make a CacheMatric
@@ -35,9 +37,10 @@ cacheSolve = function(x, ...) {
   x$setInverse(inv)
   inv
 }
-# Recalling the funtions 
+# Recalling the functions 
 cacheSolve
 makeCacheMatrix
+# Analyzing the Authenticity of each exhausted functions above
 #Caching the Inverse of a Matrix
 my_matrix = makeCacheMatrix(matrix(1:6, 2, 2))
 my_matrix$get()
